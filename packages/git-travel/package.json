@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/d-11696-4311-1erbcn1/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/d-11696-4311-1erbcn1/package.tgz",
+        "spec": "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/d-11696-4311-1erbcn1/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/apm-install-dir-11696-4311-pyeect"
+    ]
+  ],
+  "_from": "../d-11696-4311-1erbcn1/package.tgz",
+  "_id": "git-travel@0.1.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/git-travel",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/d-11696-4311-1erbcn1/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/d-11696-4311-1erbcn1/package.tgz",
+    "spec": "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/d-11696-4311-1erbcn1/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11696-4311-1erbcn1/package.tgz",
+  "_shasum": "b61866d1a4650c24f71174132f4c8ef22194bc0b",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/d-11696-4311-1erbcn1/package.tgz",
+  "_where": "/private/var/folders/sw/khzxrzf14d79m3c7lsj65k6m0000gn/T/apm-install-dir-11696-4311-pyeect",
+  "activationCommands": {
+    "atom-workspace": "git-travel:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/varemenos/atom-git-travel/issues"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "nodegit": "^0.6.3"
+  },
+  "description": "> An Atom package that helps you travel through branches, tags and commits :rocket:.",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/varemenos/atom-git-travel#readme",
+  "keywords": [
+    "git",
+    "checkout"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "git-travel",
+  "optionalDependencies": {},
+  "readme": "# Atom Git Travel\n\n> An Atom package that helps you travel through branches, tags and commits :rocket:.\n\n## Installation\n\n```shell\napm install git-travel\n```\n\n## Screenshot\n\n![screenshot](https://rawgit.com/varemenos/atom-git-travel/master/screenshot.png)\n\n## Known Issues\n\n1. If you get a `Cannot find module '../build/Debug/nodegit.node'` error when you try to toggle the package, visit this [link](https://github.com/varemenos/atom-git-travel/issues/1)\n2. Switching to another commit, branch or tag during a unclean state will get rid of all the uncommited changes.\n\n## License\n\nThe MIT License\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varemenos/atom-git-travel.git"
+  },
+  "version": "0.1.4"
+}

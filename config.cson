@@ -1,0 +1,49 @@
+"*":
+  "advanced-open-file": {}
+  "atom-autocomplete-php": {}
+  "atom-material-ui":
+    colors: {}
+    tabs:
+      compactTabs: true
+      noTabMinWidth: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "remote-sync"
+      "php-fellow"
+      "php-fellow"
+    ]
+    excludeVcsIgnoredPaths: false
+    projectHome: "/Stack/Code"
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 11
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+  emmet: {}
+  "exception-reporting":
+    userId: "90028eb5-f764-cc3a-e0fb-86094bc304aa"
+  "fuzzy-finder":
+    searchAllPanes: true
+  minimap:
+    absoluteMode: true
+  "remote-edit": {}
+  "remote-sync": {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "

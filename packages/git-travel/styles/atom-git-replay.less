@@ -1,0 +1,35 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.truncate () {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.git-travel {
+  overflow-y: scroll;
+  height: 100%;
+
+  .tag,
+  .branch,
+  .commit {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    max-width: 15vw;
+    padding: 0 0.5em;
+    margin-bottom: 0.25em;
+    font-size: 1.25em;
+    text-align: left;
+
+    .truncate();
+  }
+
+  .selected {
+    color: #fff;
+  }
+}
